@@ -1,41 +1,45 @@
 body {
- margin: 0;
- padding: 0;
- font-family:"ヒラギノ角ゴ Pro W3";
+  margin: 0;
+  padding: 0;
+  font-family:"ヒラギノ角ゴ Pro W3";
 }
 
 header {
- display: flex;
- width: 100%;
- height: 90px;
- background-color: #b9d08b;
- align-items: center;
- position: fixed;
- text-align:center;
- line-height: 60px
+  display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  position: fixed;
+  text-align:center;
+}
+header a {
+  margin: 20px;
+  text-decoration: none;
 }
 
+
 .menu {
- list-style-type:none;
+	list-style-type:none;
 }
 .menu > li {
- display:inline-block;
- border:1px solid gray;
- position:relative;
- height:100%;
- padding:50px;
+	display:inline-block;
+	border:1px solid gray;
+	position:relative;
+  height:100%;
+  padding:50px;
 }
 .menu > li > ul {
- display:none;
+	display:none;
 }
 .menu > li:hover ul {
- display:block;
- padding:10px 10px;
- margin:0;
- list-style-type:none;
- border:1px solid gray;
- height:100%;
+	display:block;
+	padding:10px 10px;
+	margin:0;
+	list-style-type:none;
+	border:1px solid gray;
+  height:100%;
 }
+
 
 .hide_display {
  margin: 2em 4em;/*前後の余白*/
