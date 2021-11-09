@@ -38,7 +38,7 @@ header {
 }
 
 .hide_display {
- margin: 2em 0;/*前後の余白*/
+ margin: 2em 4em;/*前後の余白*/
  padding: 0;
 }
 
