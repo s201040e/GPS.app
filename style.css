@@ -17,7 +17,6 @@ header a {
   text-decoration: none;
 }
 
-
 .menu {
 	list-style-type:none;
 }
@@ -39,6 +38,7 @@ header a {
 	border:1px solid gray;
   height:100%;
 }
+
 
 
 .hide_display {
